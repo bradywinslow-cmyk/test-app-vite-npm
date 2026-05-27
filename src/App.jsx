@@ -3,7 +3,7 @@ import './App.css'
 import { Sprig } from './main'
 
 function eventTriggerButtonClick() {
-  Sprig.identifyAndTrack({eventName: 'buttonClick'});
+  Sprig.identifyAndTrack({eventName: 'eventTriggerButtonClick'});
 }
 
 function App() {
