@@ -6,6 +6,10 @@ function eventTriggerButtonClick() {
   Sprig.identifyAndTrack({eventName: 'eventTriggerButtonClick'});
 }
 
+function eventTriggerButtonClick2() {
+  Sprig.identifyAndTrack({eventName: 'eventTriggerButtonClick2'});
+}
+
 function App() {
   return (
     <>
@@ -16,6 +20,14 @@ function App() {
           onClick={eventTriggerButtonClick}
         >
           Event Trigger
+        </button>
+
+        <button
+          type="button"
+          className="event-trigger-2"
+          onClick={eventTriggerButtonClick2}
+        >
+          Event Trigger 2
         </button>
       </section>
     </>
