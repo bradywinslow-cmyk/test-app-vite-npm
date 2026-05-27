@@ -6,7 +6,7 @@ import App from './App.jsx'
 import { sprig } from '@sprig-technologies/sprig-browser';
 
 export const Sprig = sprig.configure({
-  environmentId: 'iUPkMKvu11OT'
+  environmentId: 'iUPkMKvu11OT',
 })
 
 createRoot(document.getElementById('root')).render(
