@@ -2,7 +2,7 @@ import './App.css'
 
 import { Sprig } from './main'
 
-function buttonClick() {
+function eventTriggerButtonClick() {
   Sprig.identifyAndTrack({eventName: 'buttonClick'});
 }
 
@@ -13,7 +13,7 @@ function App() {
         <button
           type="button"
           className="event-trigger"
-          onClick={buttonClick}
+          onClick={eventTriggerButtonClick}
         >
           Event Trigger
         </button>
